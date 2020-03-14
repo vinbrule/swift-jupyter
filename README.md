@@ -72,7 +72,7 @@ Swift for TensorFlow requires CUDNN 7.5, but Conda only has CUDNN 7.3).
 Create a Conda environment and install some packages in it:
 
 ```bash
-conda create -n swift-tensorflow python==3.6
+conda create -n swift-tensorflow python=3.6
 conda activate swift-tensorflow
 conda install jupyter numpy matplotlib
 ```
